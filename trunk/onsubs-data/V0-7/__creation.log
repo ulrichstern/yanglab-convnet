@@ -1,0 +1,191 @@
+onSubstrate.py revision: 635
+onSubstrate.py --fis 92 -b 600 -d /home/uli/data/onsubs/cc-exp2/V0-7 --vids -w
+
+--- video 0 (c2__2013-08-07__17-30-17 AD.avi) ---
+loaded predictions file (predictions: off:2572, on subs:2228)
+using revision 606 of human classification file
+  using revision 637 of hcErrors.csv
+pages completed by user: edd:85, ruo:84, uli:84
+images with at least 3 human classifications (number pages: 84):
+ tagged:                      109
+ different but not tagged:    5
+ good but not in predictions: 1618
+ good:                        2468
+
+batch size: 600, number batches: 4
+  human classifications: 2468
+  error of page classifications: 3.53%
+loading frames...
+fly image stats
+  fly image pixel values: min=20, max=155
+    (minimum distance to white or black: 20)
+  maximum extension into border: 1.8
+    number of images with border extension >= 2: 0
+writing cuda-convnet data...
+  filtered 0 human classification errors
+
+--- video 1 (c2__2013-07-09__16-18-37 AD.avi) ---
+loaded predictions file (predictions: off:2142, on subs:2658)
+using revision 609 of human classification file
+  using revision 637 of hcErrors.csv
+pages completed by user: edd:85, ruo:85, uli:78
+images with at least 3 human classifications (number pages: 78):
+ tagged:                      189
+ different but not tagged:    21
+ good but not in predictions: 1242
+ good:                        2448
+
+batch size: 600, number batches: 4
+  human classifications: 2448
+  error of page classifications: 10.05%
+loading frames...
+fly image stats
+  fly image pixel values: min=20, max=172
+    (minimum distance to white or black: 20)
+  maximum extension into border: 5.0
+    number of images with border extension >= 2: 67
+    note: to check the fly images, replace --info or -w with --intrs
+writing cuda-convnet data...
+  filtered 7 human classification errors
+
+--- video 2 (c2__2013-05-17__17-11-15 AD.avi) ---
+loaded predictions file (predictions: off:2556, on subs:2244)
+using revision 610 of human classification file
+  using revision 637 of hcErrors.csv
+pages completed by user: edd:84, ruo:84, uli:78
+images with at least 3 human classifications (number pages: 78):
+ tagged:                      236
+ different but not tagged:    12
+ good but not in predictions: 920
+ good:                        2732
+
+batch size: 600, number batches: 4
+  human classifications: 2732
+  error of page classifications: 2.64%
+loading frames...
+fly image stats
+  fly image pixel values: min=17, max=153
+    (minimum distance to white or black: 17)
+  maximum extension into border: 4.7
+    number of images with border extension >= 2: 6
+    note: to check the fly images, replace --info or -w with --intrs
+writing cuda-convnet data...
+  filtered 7 human classification errors
+
+--- video 3 (c1__2013-05-21__17-07-07 AD.avi) ---
+loaded predictions file (predictions: off:2946, on subs:1854)
+using revision 611 of human classification file
+  using revision 637 of hcErrors.csv
+pages completed by user: edd:83, ruo:83, uli:81
+images with at least 3 human classifications (number pages: 81):
+ tagged:                      175
+ different but not tagged:    27
+ good but not in predictions: 1430
+ good:                        2418
+
+batch size: 600, number batches: 4
+  human classifications: 2418
+  error of page classifications: 6.70%
+loading frames...
+fly image stats
+  fly image pixel values: min=15, max=146
+    (minimum distance to white or black: 15)
+  maximum extension into border: 0.5
+    number of images with border extension >= 2: 0
+writing cuda-convnet data...
+  filtered 3 human classification errors
+
+--- video 4 (c4__2013-05-20__16-40-04 AD.avi) ---
+loaded predictions file (predictions: off:2674, on subs:2126)
+using revision 593 of human classification file
+  using revision 637 of hcErrors.csv
+pages completed by user: edd:52, ruo:54, uli:54
+images with at least 3 human classifications (number pages: 52):
+ tagged:                      157
+ different but not tagged:    1
+ good but not in predictions: 0
+ good:                        2442
+
+batch size: 600, number batches: 4
+  human classifications: 2442
+  error of page classifications: 0.12%
+loading frames...
+fly image stats
+  fly image pixel values: min=19, max=127
+    (minimum distance to white or black: 19)
+  maximum extension into border: 0.4
+    number of images with border extension >= 2: 0
+writing cuda-convnet data...
+  filtered 3 human classification errors
+
+--- video 5 (c4__2013-05-17__17-11-14 AD.avi) ---
+loaded predictions file (predictions: off:4404, on subs:5196)
+using revision 617 of human classification file
+  using revision 637 of hcErrors.csv
+pages completed by user: edd:111, ruo:111, uli:111
+images with at least 3 human classifications (number pages: 111):
+ tagged:                      539
+ different but not tagged:    32
+ good but not in predictions: 94
+ good:                        4885
+
+batch size: 600, number batches: 8
+  human classifications: 4885
+  error of page classifications: 2.01%
+loading frames...
+fly image stats
+  fly image pixel values: min=19, max=131
+    (minimum distance to white or black: 19)
+  maximum extension into border: 4.4
+    number of images with border extension >= 2: 161
+    note: to check the fly images, replace --info or -w with --intrs
+writing cuda-convnet data...
+  filtered 15 human classification errors
+
+--- video 6 (c3__2013-05-17__17-11-14 AD.avi) ---
+loaded predictions file (predictions: off:2315, on subs:2485)
+using revision 612 of human classification file
+  using revision 637 of hcErrors.csv
+pages completed by user: edd:54, ruo:53, uli:54
+images with at least 3 human classifications (number pages: 53):
+ tagged:                      224
+ different but not tagged:    8
+ good but not in predictions: 0
+ good:                        2418
+
+batch size: 600, number batches: 4
+  human classifications: 2418
+  error of page classifications: 0.29%
+loading frames...
+fly image stats
+  fly image pixel values: min=15, max=127
+    (minimum distance to white or black: 15)
+  maximum extension into border: 10.9
+    number of images with border extension >= 2: 233
+    note: to check the fly images, replace --info or -w with --intrs
+writing cuda-convnet data...
+  filtered 8 human classification errors
+
+--- video 7 (c3__2013-05-20__16-40-46 AD.avi) ---
+loaded predictions file (predictions: off:2742, on subs:2058)
+using revision 608 of human classification file
+  using revision 637 of hcErrors.csv
+pages completed by user: edd:56, ruo:56, uli:56
+images with at least 3 human classifications (number pages: 56):
+ tagged:                      253
+ different but not tagged:    18
+ good but not in predictions: 0
+ good:                        2529
+
+batch size: 600, number batches: 4
+  human classifications: 2529
+  error of page classifications: 0.28%
+loading frames...
+fly image stats
+  fly image pixel values: min=21, max=181
+    (minimum distance to white or black: 21)
+  maximum extension into border: 7.4
+    number of images with border extension >= 2: 144
+    note: to check the fly images, replace --info or -w with --intrs
+writing cuda-convnet data...
+  filtered 3 human classification errors
