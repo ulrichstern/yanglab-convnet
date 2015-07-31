@@ -1,0 +1,18 @@
+#summary How to install the code.
+
+This page does not give detailed instruction for the install; instead, it explains several aspects of the data and code in the hope that this will be sufficient for researchers and programmers to get things working.  A link to a paper about this project will be made available.  In a nutshell, our code allows you to classify each frame of a video using convolutional neural networks (CNNs).  The CNNs are implemented by [http://code.google.com/p/cuda-convnet/ cuda-convnet].  Our code executes cuda-convnet scripts (e.g., to train CNNs) and generates data files (with images) that cuda-convnet can read.
+
+== Installation ==
+If you check out yanglab-convnet, you get the following directories
+ * cuda-convnet
+  * contains all the files in [http://code.google.com/p/cuda-convnet/ cuda-convnet] that we modified
+  * after you got cuda-convnet working (Alex has good documentation for this), you should replace the cuda-convnet files with the files in this directory
+ * onsubs
+  * our scripts, see overview of the code below for details
+  * you have to customize the paths used by the scripts for your situation
+ * onsubs-data
+  * data we used in the paper
+
+== Overview of code ==
+
+To be continued.
