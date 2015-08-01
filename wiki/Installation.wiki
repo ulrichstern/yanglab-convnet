@@ -12,6 +12,10 @@ If you check out yanglab-convnet, you get the following directories
   * you have to customize the paths used by the scripts for your situation
  * onsubs-data
   * data we used in the paper
+ * onsubs-layers
+  * our cuda-convnet layer definition and layer parameter files
+   * the former defines the CNN architecture, the latter the learning parameters
+  * used for the paper: 3c2f-2.cfg (3 conv, 2 fc layers) and 3c2f-2-params.cfg
 
 == Overview of code ==
 
