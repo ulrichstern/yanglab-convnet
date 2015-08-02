@@ -36,9 +36,10 @@ Note: each script below can be called with "-h" to see all command-line options.
  * automates training of multiple nets
   * autoCc stands for "automate cuda-convnet," so this script calls cuda-convnet (both convnet.py and shownet.py)
   * each training results in an _experiment_ directory with
-   * all the nets, log files for each net, prediction files for each net
-   * the cuda-convnet layer definition and parameter files
-    * the parameter file is edited by the script, e.g., to change learning rate after a certain number of epochs
+   * all the nets, prediction files for each net
+   * a log file for the experiment with all cuda-convnet output
+   * the cuda-convnet layer definition and layer parameter files used
+    * the parameter file is edited by autoCc.py to, e.g., change learning rate after a certain number of epochs
   * the code in the beginning of the file can be edited to change the training
  * you can run additional predictions for previously trained nets
   * we used this, e.g., to figure out what data augmentation for test worked best
